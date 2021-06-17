@@ -258,11 +258,14 @@ footer .container p{
     color: #8e8e8e;
     padding: 50px;
     border-radius: 10px;
+    min-height: 220px;
+    min-width: 50%;
 }
 .contact_item img{
     border-radius: 50%;
     font-weight: bold;
     width: 60%;
+    min-height: 90px;
 }
 .contact_item p{
     display: block;
@@ -313,6 +316,10 @@ nav a:active{
 .proyecto{
     padding: 25px 25px;
 }
+/* .repo{
+    display: inline-block;
+    background-color: red;
+} */
 /* projects */
 .project{
     margin-left: 20px;
